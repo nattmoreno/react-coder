@@ -8,10 +8,10 @@ const Navbar = () => {
                     <a href="#inicio">Inicio</a>
                 </li>
                 <li>
-                    <a href="#acerca">Acerca de</a>
+                    <a href="#acerca">Nosotros</a>
                 </li>
                 <li>
-                    <a href="#servicios">Servicios</a>
+                    <a href="#servicios">Nuestros cafés</a>
                 </li>
                 <li>
                     <a href="#contacto">Contacto</a>

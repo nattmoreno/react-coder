@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../src/assets/images/coffee-shop-wallpaper.jpg");
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.5);
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+h1 {
+    width: 50%;
+    display: block;
+    text-align: left;
+    /* margin-left: 40px; */
+    color: rgb(250, 230, 203);
+    font-family: "Carattere", cursive;
+    letter-spacing: 2.5px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    /* gap: 10px; */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(250, 230, 203);
+    transition: transform 0.4s ease;
+}
+
+a:hover {
+    /* font-size: 17px; */
+    transform: scale(1.1);
+}
+
+p {
+    color: rgb(250, 230, 203);
+    font-weight: 500;
+}
